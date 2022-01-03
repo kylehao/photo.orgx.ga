@@ -10,7 +10,7 @@ layout: default
         <div class="card">  
           <div class="image">
             {% if post.img %}
-            <img height="220" src="http://{{post.img}}" alt="{{post.title}}">
+            <img height="220" src="{{post.img}}" alt="{{post.title}}">
             {% endif %}
             <div class="card-body">
               <h3 class="panel-title font-weight-bold">{{ post.title | truncate: 25 }}</h3>
